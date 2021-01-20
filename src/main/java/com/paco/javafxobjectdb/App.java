@@ -14,7 +14,7 @@ import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
 /**
- * JavaFX App
+ * JavaFX App 1.0
  */
 public class App extends Application {
 
