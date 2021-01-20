@@ -38,15 +38,6 @@ public class App extends Application {
     }
 
     public static void main(String[] args) {
-    
-        //EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("p.odb");
-        //EntityManager em = entityManagerFactory.createEntityManager();
-        //EntityManager em = ObjectDBUtil.getEntityManagerFactory().createEntityManager();
-
-        /*TypedQuery<models.Contacto> query = em.createQuery("SELECT c FROM Contacto c", models.Contacto.class);
-        List<models.Contacto> results = query.getResultList();
-        System.out.println(results);
-        */
         launch();
     }
 
