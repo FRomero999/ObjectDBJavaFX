@@ -70,6 +70,7 @@ public class PrimaryController implements Initializable{
         System.out.println(emf);
         EntityManager em = emf.createEntityManager();
 
+        /* Obtengo todos los contactos de la agenda */
         TypedQuery<models.Contacto> query = em.createQuery("SELECT c FROM Contacto c", models.Contacto.class);
         List<models.Contacto> results = query.getResultList();
         
